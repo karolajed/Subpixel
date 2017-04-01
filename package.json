@@ -1,0 +1,19 @@
+{
+  "name": "subpixel",
+  "version": "1.0.0",
+  "description": "Learn HTML and CSS by solving automated tests",
+  "main": "README.md",
+  "scripts": {
+    "test:htmllint": "./node_modules/.bin/htmllint public/*",
+    "test": "npm run test:htmllint --silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tymek/Subpixel"
+  },
+  "author": "Tymoteusz Czech <czech@t.pl> (http://tymek.cz)",
+  "license": "The Unlicense",
+  "dependencies": {
+    "htmllint-cli": "0.0.6"
+  }
+}
